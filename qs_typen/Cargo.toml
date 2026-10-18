@@ -1,0 +1,14 @@
+[package]
+name = "qs_typen"
+version = "0.1.0"
+edition = "2021"
+description = "Querencia Software: gemeinsame Typen und Traits (Paket, Fortschritt, Fehler, Paketquelle, Katalog, Transaktionsmonitor) nach SCHNITTSTELLEN.md"
+license = "GPL-3.0-or-later"
+publish = false
+
+[dependencies]
+async-trait = "0.1.92"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
