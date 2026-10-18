@@ -437,7 +437,9 @@ impl TransaktionsGriff {
 
 impl std::fmt::Debug for TransaktionsGriff {
     fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
-        f.debug_struct("TransaktionsGriff").field("id", &self.id).finish()
+        f.debug_struct("TransaktionsGriff")
+            .field("id", &self.id)
+            .finish()
     }
 }
 

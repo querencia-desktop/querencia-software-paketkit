@@ -1,0 +1,36 @@
+[package]
+name = "qs_paketkit"
+version = "0.1.0"
+edition = "2021"
+description = "Querencia Software: D-Bus-Schicht zu PackageKit (org.freedesktop.PackageKit) über zbus; implementiert qs_typen::Paketquelle"
+license = "GPL-3.0-or-later"
+publish = false
+
+[workspace]
+members = ["qs_typen"]
+
+[dependencies]
+qs_typen = { path = "qs_typen" }
+# D-Bus wie Querencia Benachrichtigungen/Files: zbus 5 mit async-io, ohne tokio.
+zbus = { version = "5.19", default-features = false, features = ["async-io"] }
+serde = { version = "1", features = ["derive"] }
+async-trait = "0.1.92"
+async-channel = "2.5"
+futures-lite = "2.6"
+# Zeitgeber für die Frist lesender Transaktionen (ohnehin über zbus im Baum).
+async-io = "2.6"
+# Nur für die Zustellung von `melden` auf dem Aufrufer-Thread (MainContext::spawn_local).
+glib = "0.22.10"
+
+# Prüfgerüst: PackageKit- und polkit-Attrappe für den privaten Prüfbus (nie Systembus).
+[[bin]]
+name = "qs-pk-attrappe"
+path = "pruefgeruest/pk-attrappe.rs"
+
+[[example]]
+name = "pk-suche"
+path = "beispiele/pk-suche.rs"
+
+[lints.rust]
+unsafe_code = "forbid"
+missing_docs = "warn"
