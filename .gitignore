@@ -1,2 +1,5 @@
 target/
 Cargo.lock.bak
+# Ausgaben der isolierten Prüfung (nicht einchecken)
+/target
+/nachweis/
