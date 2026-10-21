@@ -1,8 +1,10 @@
 # qs_paketkit – PackageKit-Schicht für „Querencia Software“
 
 PackageKit-Schicht für Querencia Software: die gemeinsamen Typen und Traits aller Bausteine (`qs_typen`) und die Paketquelle über D-Bus (`qs_paketkit`). Teil von
-[Querencia Desktop](https://github.com/querencia-desktop/querencia) – einer
+[Querencia Desktop](https://querencialinux.org) – einer
 klassischen Desktopumgebung im GNOME-2-Stil für Wayland (labwc, Rust, GTK 4).
+Wird als Teil von Querencia Software ausgeliefert; Anleitung auf
+<https://querencialinux.org>.
 
 *English summary:* PackageKit layer of Querencia Software: shared types and traits (`qs_typen`) and the package source over D-Bus (`qs_paketkit`). Part of Querencia Desktop. Alpha software; documentation is in German.
 
