@@ -2,7 +2,7 @@
 name = "qs_typen"
 version = "0.1.0"
 edition = "2021"
-description = "Querencia Software: gemeinsame Typen und Traits (Paket, Fortschritt, Fehler, Paketquelle, Katalog, Transaktionsmonitor) nach SCHNITTSTELLEN.md"
+description = "Querencia Software: gemeinsame Typen und Traits (Paket, Fortschritt, Fehler, Paketquelle, Katalog, Transaktionsmonitor) nach schnittstellen.md"
 license = "GPL-3.0-or-later"
 publish = false
 

@@ -15,7 +15,7 @@
 //! `UpdateDetail`, `ItemProgress`, `ErrorCode`, `RequireRestart`, `Finished`, `Destroy`;
 //! `PropertiesChanged` für `Status`/`Percentage`/`AllowCancel`/`DownloadSizeRemaining`.
 //! Zusätzliche Prüfregeln: Schreibende Aufrufe ohne die drei Pflicht-Hinweise aus
-//! SCHNITTSTELLEN.md und `RemovePackages` mit `allow_deps=true` oder `autoremove=true`
+//! schnittstellen.md und `RemovePackages` mit `allow_deps=true` oder `autoremove=true`
 //! enden mit `internal-error`.
 //! Sonderpakete: `langsam` (5 s), `gesperrt` (cannot-get-lock), `kaputt`
 //! (dep-resolution-failed), `neustart` (RequireRestart system).

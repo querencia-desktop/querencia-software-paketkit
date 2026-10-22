@@ -78,6 +78,6 @@ Fehlen `dbus-daemon` oder `/usr/libexec/packagekitd`, melden die betroffenen Tes
 
 ## Nicht im Gerüst prüfbar
 
-- Echte polkit-Dialoge (Agent G2-K) – nur mit echter Transaktion auf dem Systembus, verboten.
+- Echte polkit-Dialoge (Agent `querencia-polkit-agent`) – nur mit echter Transaktion auf dem Systembus, verboten.
 - Unterscheidung `KeinAgent`/`NichtBerechtigt` gegen echten polkitd: Heuristik, siehe `src/agent.rs`.
 - apt-spezifische Fortschrittsfolgen (Download-Größen, `cannot-get-lock` durch echtes apt).

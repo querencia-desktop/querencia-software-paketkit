@@ -1,10 +1,10 @@
 //! Gemeinsame Typen für „Querencia Software“.
 //!
-//! Dieses Crate enthält genau die in `SCHNITTSTELLEN.md` festgelegten Typen und
+//! Dieses Crate enthält genau die in `schnittstellen.md` festgelegten Typen und
 //! Traits, die alle Teilprojekte (`qs_paketkit`, `qs_katalog`, `qs_transaktion`,
 //! `querencia-software`) gemeinsam nutzen. Es hat außer `async-trait` keine
 //! Abhängigkeiten und bleibt ab dem ersten Commit stabil; Erweiterungen sind nur
-//! additiv und werden der Status-Session gemeldet.
+//! additiv und werden vorab abgesprochen.
 //!
 //! Bezeichner sind deutsch. PackageKit-Begriffe (Paket-ID, Status, Fehlercode)
 //! sind dort, wo sie durchscheinen, in den Dokumentationskommentaren erklärt.
