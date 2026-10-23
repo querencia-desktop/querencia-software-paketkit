@@ -20,7 +20,7 @@ use crate::transaktion::{self, als_text, als_u64, fehler_aus_zbus, Abbildung, Er
 /// nicht gesetzt = Systembus.
 pub const UMGEBUNG_BUS: &str = "QS_PK_BUS";
 
-/// Hinweise, die jede Transaktion setzt (SCHNITTSTELLEN.md).
+/// Hinweise, die jede Transaktion setzt (schnittstellen.md).
 pub const HINWEISE: [&str; 3] = ["locale=de_DE.UTF-8", "interactive=true", "background=false"];
 
 /// Standardfrist für lesende Transaktionen und Simulationen (siehe [`PaketKit::mit_frist`]).

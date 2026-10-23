@@ -25,10 +25,10 @@ done
 Die Kennungen SW-1 bis SW-4 in Kommentaren bezeichnen die Teilprojekte:
 SW-1 `querencia-software-paketkit`, SW-2 `querencia-software-katalog`,
 SW-3 die Oberfläche in `querencia-software`, SW-4 `querencia-software-transaktion`.
-Die gemeinsame Schnittstelle beschreibt `docs/SCHNITTSTELLEN.md` in
+Die gemeinsame Schnittstelle beschreibt `docs/schnittstellen.md` in
 `querencia-software`.
 
-Zwei Crates nach `docs/SCHNITTSTELLEN.md` in `querencia-software`:
+Zwei Crates nach `docs/schnittstellen.md` in `querencia-software`:
 
 | Crate | Ordner | Inhalt |
 |---|---|---|
